@@ -12,8 +12,9 @@ Set by the merchant when creating the order.
 | Header | Description |
 | --- | --- |
 | Content-Type | application/x-www-form-urlencoded |
-| X-Access-Key | The Access Key that creates this invoice |
-| X-Signature | Request Signature ([How to make a signature?](/Signature.md) ) |
+| X-Notify-Key | The notify key we returned with invoice creation |
+| X-Access-Key | The Access Key that creates this invoice (Only available if created from API) |
+| X-Signature | Request Signature ([How to make a signature?](/Signature.md)) (Only available if created from API) |
 
 ## Body
 
@@ -34,4 +35,4 @@ Set by the merchant when creating the order.
 
 ## Response
 
-Need response with 2xx status code within 10 seconds or it will be treated as a failure.
+Required response with 2xx status code within 10 seconds or it will be treated as a failure.

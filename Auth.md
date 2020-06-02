@@ -1,11 +1,5 @@
 # API Authentication
 
-## Example URI
-
-``` 
-/api/v1/invoice/create
-```
-
 ## Query Params
 
 | Key | Type | Description |
@@ -18,5 +12,9 @@
 | Header | Description |
 | --- | --- |
 | X-Access-Key | Your Access Key |
-| X-Signature | Request Signature ([How to make a signature?](/Signature.md) ) |
+| X-Signature | Request Signature (See [Signature](#signature) part) |
 
+## Signature
+
+Use URI as input data (e.g. `/v1/invoice/create?ts=1234567890&nonce=abcd12345`)<br>
+For more details check out [How to make a signature?](/Signature.md).
