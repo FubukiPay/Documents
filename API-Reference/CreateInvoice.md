@@ -8,7 +8,7 @@ POST https://api.fubuki.us/v1/invoice/create?ts=1591128413&nonce=zcV8h5QRuK2EM
 
 ## Authentication
 
-See [Auth](/Auth.md)
+See [Auth](Auth.md)
 
 ## Body
 
@@ -28,7 +28,7 @@ See [Auth](/Auth.md)
 
 ``` 
 {
-    "ret": 0,
+    "code": 0,
     "msg": "",
     "data": {
         "payment_url": "https://pay.fubuki.us/invoice/X1lSLnTHlYzj2SUfhjzmS5Ee3gIVob7xSmEnVwH0VdJHm4RunZLfgJ8Rfa8BShzs",
