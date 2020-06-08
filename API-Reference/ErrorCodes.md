@@ -11,5 +11,6 @@
 | 403 | Access Denied |
 | 400 | Bad Request |
 | 404 | Not Found |
+| 410 | The resource you requested is no longer available |
 | 500 | Internal Error |
 | 503 | Service Temporary Unavailable |
