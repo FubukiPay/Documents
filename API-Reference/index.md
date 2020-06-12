@@ -21,6 +21,8 @@ More details about the return code are available at [Error Codes](ErrorCodes.md)
 ## APIs
 
 - [Create Invoice](CreateInvoice.md)
+- [Recent Invoices](RecentInvoices.md)
+- [Invoice Details](InvoiceDetails.md)
 - TODO
 
 
