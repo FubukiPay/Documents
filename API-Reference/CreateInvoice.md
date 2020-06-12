@@ -3,7 +3,7 @@
 ## URL
 
 ``` 
-POST https://api.fubuki.us/v1/invoice/create?ts=1591128413&nonce=zcV8h5QRuK2EM
+POST https://api.fubuki.us/v1/invoice/create
 ```
 
 ## Authentication
