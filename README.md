@@ -2,6 +2,6 @@
 
 ## Menu
 
-[API Reference](/API Reference/)
-[Signature](/Signature.html)
-[Notify](/Notify.html)
+[API Reference](/API-Reference/)<br>
+[Signature](/Signature.html)<br>
+[Notify](/Notify.html)<br>
