@@ -14,7 +14,7 @@ Set by the merchant when creating the order.
 | Content-Type | application/x-www-form-urlencoded |
 | X-Notify-Key | The notify key we returned with invoice creation |
 | X-Access-Key | The Access Key that creates this invoice (Only available if created from API) |
-| X-Signature | Request Signature ([How to make a signature?](/Signature.md)) (Only available if created from API) |
+| X-Signature | Signature of notify URL (See [How to make a signature?](/Signature.md)) (Only available if created from API) |
 
 ## Body
 
