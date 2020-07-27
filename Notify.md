@@ -7,6 +7,10 @@ Also, the funds have been credited to your merchant wallet.
 
 Set by the merchant when creating the order.
 
+## Method
+
+POST
+
 ## Headers
 
 | Header | Description |

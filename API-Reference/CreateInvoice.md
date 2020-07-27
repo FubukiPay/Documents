@@ -21,7 +21,7 @@ See [Auth](Auth.md)
 | fees_payer | Yes | int | Who will pay the fees for this invoice. <code>1</code> for the merchant, <code>2</code> for the customer. |
 | merchant_tradeno | No | string | Merchant's internal order identifier, it should within 32 ASCII characters.<br>We will generate one if not provided. |
 | title | No | string | Invoice title |
-| notify_url | No | string | An HTTP URL that we will notify when the customer has paid. |
+| notify_url | No | string | An HTTP URL that we will [notify](/Notify.md) when the customer has paid. |
 | return_url | No | string | An HTTP URL that customers will redirect to when they paid or canceled. |
 
 ## Example Response
